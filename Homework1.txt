@@ -1,0 +1,7 @@
+hash function 與 cryptographic hash function的差異：
+cryptographic hash function 是一種 hash function，它主要用在密碼學上，比較在意訊息的安全性和被惡意攻擊時的防範，對於避免碰撞來說會比較有保證。
+而hash function並非是只專注在密碼上，還有一些hash function，它們犧牲了安全上的保證，換來了效能上的提升，因為這種hash function在使用時不太需要注意他人的惡意攻擊。
+
+目前常看到的cryptographic hash function為sha-2, sha-3。
+而hash function則有好幾個類好，像是Cyclic redundancy checks、Checksums、Universal hash function families、Non-cryptographic hash functions等等。
+
